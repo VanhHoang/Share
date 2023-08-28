@@ -5,7 +5,7 @@
 * git config --global user.email "username@gmail.com"
 
 # Copy Git
-* git clone <url>
+* git clone https://github.com/VanhHoang/Share.git
 
 # Create 
 * git init
@@ -18,7 +18,7 @@
 # PUSH
 * git add <name_file>     <->       git add .
 * git commit -m "name_commit"
-* git push -u origin master
+* git push -u origin master 
 
 # Remote
 * git remote add origin https://github.com/VanhHoang/Share.git
