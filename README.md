@@ -1,14 +1,27 @@
-# Share
+## Share
 
-echo "# hgdhh" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/VanhHoang/Share.git
-git push -u origin master
+# Config
+* git config --global user.name "User Name"
+* git config --global user.email "username@gmail.com"
 
+# Copy Git
+* git clone <url>
 
-git remote add origin https://github.com/VanhHoang/Share.git
-git branch -M master
-git push -u origin master
+# Create 
+* git init
+
+# Branch
+* git branch
+* git branch <name_branch>
+* git checkout -b <name_branch>
+
+# PUSH
+* git add <name_file>     <->       git add .
+* git commit -m "name_commit"
+* git push -u origin master
+
+# Remote
+* git remote add origin https://github.com/VanhHoang/Share.git
+
+# Pull
+* git pull origin master
