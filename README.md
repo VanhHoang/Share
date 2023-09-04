@@ -11,9 +11,13 @@
 * git init
 
 # Branch
-* git branch
+
 * git branch <name_branch>
+* git checkout <name_branch>
+* =>
 * git checkout -b <name_branch>
+
+* git push -u <remote> <name_branch>
 
 # PUSH
 * git add <name_file>     <->       git add .
