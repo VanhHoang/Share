@@ -1,0 +1,362 @@
+@media (min-width: 990px) and (max-width: 1200px) {
+  .banner-slider {
+    padding-top: 180px;
+  }
+
+  .banner-slider__left img {
+    width: 100%;
+    height: 223px;
+  }
+
+  .banner-slider .banner-slider__right img {
+    width: 330px;
+  }
+  .image-carousel__item-list {
+    width: 180%;
+  }
+
+  .arrow-prev,
+  .arrow-next {
+    top: 45%;
+  }
+
+  .image_carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .header-find__img {
+    /* margin-right: -10px; */
+    width: 100px;
+    display: inline-block;
+  }
+
+  .header-search__box {
+    width: 100%;
+  }
+
+  .header-find__input {
+    height: 48px;
+    width: 90%;
+    margin-right: -100px;
+  }
+
+  .header-find .header-find__img img {
+    width: 200%;
+  }
+
+  .header-find__icon {
+    left: 92.8%;
+    position: absolute;
+    color: #fff;
+    background-color: #fb5533;
+    padding: 11px 18px;
+    border-radius: 3px;
+  }
+
+  .header-shop__icon {
+    margin-right: 20px;
+    font-size: 26px;
+  }
+
+  .header-items {
+    position: absolute;
+    white-space: nowrap;
+    /* padding-top: 80px; */
+    left: 0;
+    display: inline;
+    margin-left: 23%;
+  }
+
+  .header {
+    padding-top: 9px;
+    background-color: #f7462e;
+    position: fixed;
+    padding-bottom: 15px;
+    width: 100%;
+    z-index: 2;
+    height: 160px;
+  }
+
+  /* Dang Nhap */
+
+  /* Dang Ky */
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .banner-slider {
+    padding-top: 200px;
+    z-index: 1;
+  }
+
+  .banner-slider__left img {
+    width: 100%;
+    height: 223px;
+  }
+
+  .image-carousel__item-list {
+    width: 234%;
+  }
+
+  .banner-slider .banner-slider__right img {
+    width: 248px;
+  }
+
+  .arrow-prev,
+  .arrow-next {
+    top: 45%;
+  }
+
+  .shopee-mall__banner {
+    width: 100%;
+  }
+
+  .shopee-mall__bannerleft {
+    display: none;
+  }
+  .shopee-mall__bannerleft {
+    overflow: visible;
+  }
+
+  .arrow-prev__shmall {
+    left: -15px;
+  }
+
+  .shopee-mall_corner {
+    font-size: 10px;
+  }
+
+  .header-find .header-find__img img {
+    width: 100%;
+  }
+
+  .header-find__img {
+    /* margin-right: -10px; */
+    width: 100px;
+    display: inline-block;
+  }
+
+  .header-search__box {
+    width: 100%;
+  }
+
+  .header-find__input {
+    margin-left: 80px;
+    height: 48px;
+    width: 90%;
+  }
+
+  .header-find .header-find__img img {
+    width: 200%;
+  }
+
+  .header-find__icon {
+    left: 89.8%;
+    position: absolute;
+    color: #fff;
+    background-color: #fb5533;
+    padding: 11px 18px;
+    border-radius: 3px;
+  }
+
+  .header-shop__icon {
+    margin-right: 20px;
+    font-size: 26px;
+  }
+
+  .header-items {
+    display: none;
+  }
+
+  .header {
+    padding-top: 9px;
+    background-color: #f7462e;
+    position: fixed;
+    padding-bottom: 15px;
+    width: 100%;
+    z-index: 2;
+    height: 160px;
+  }
+
+  /* Dang Nhap */
+  .dang-nhap__banner {
+    display: none;
+  }
+  .background_temporary {
+    position: relative;
+    background-color: #f7462e;
+    width: 100%;
+    height: 550px;
+  }
+  .dang-nhap__form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Dang Ky */
+  .dang-ky__banner {
+    display: none;
+  }
+  .background_temporary {
+    position: relative;
+    background-color: #f7462e;
+    width: 100%;
+    height: 550px;
+  }
+  .dang-ky__form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-slider {
+    padding-top: 230px;
+    padding-bottom: 45px;
+  }
+  .deal-icon {
+    margin-top: 135px;
+  }
+
+  .banner-slider__left {
+    width: 100% !important;
+  }
+  .banner-slider__right {
+    display: none;
+  }
+
+  .image-carousel__item-list {
+    width: 450%;
+  }
+
+  .banner-slider .banner-slider__right {
+  }
+  /* .shopee-mall__wrapper 
+  {
+    width: 650px;
+  }
+  */
+
+  .banner-slider .banner-slider__right img {
+    width: 540px;
+    object-fit: cover;
+    height: 135px;
+  }
+
+  .container .shopee-mall__wrapper {
+    max-width: fit-content;
+  }
+  .lop_phu_right {
+    width: 510px;
+  }
+
+  .shopee-mall__banner {
+    width: 165%;
+
+    visibility: visible;
+  }
+
+  .shopee-mall__imagelist {
+    overflow: hidden;
+  }
+  .shopee-mall__banner .shopee-mall__imagelist {
+    width: 155%;
+  }
+
+  .shopee-mall__bannerleft {
+    display: none;
+  }
+
+  .arrow-prev__shmall {
+  }
+
+  .shmall-img {
+    width: 30%;
+  }
+
+  .header-find__img {
+    /* margin-right: -10px; */
+    width: 100px;
+    display: inline-block;
+  }
+
+  .header-search__box {
+    width: 100%;
+  }
+
+  .header-find__input {
+    margin-left: 70px;
+    height: 48px;
+    width: 90%;
+  }
+
+  .header-find .header-find__img img {
+    width: 200%;
+  }
+
+  .header-find__icon {
+    left: 85.8%;
+    position: absolute;
+    color: #fff;
+    background-color: #fb5533;
+    padding: 11px 18px;
+    border-radius: 3px;
+  }
+
+  .header-shop__icon {
+    margin-right: 20px;
+    font-size: 26px;
+  }
+
+  .header-items {
+    display: none;
+  }
+
+  .header {
+    padding-top: 9px;
+    background-color: #f7462e;
+    position: fixed;
+    padding-bottom: 15px;
+    width: 100%;
+    z-index: 2;
+    height: 180px;
+  }
+
+  /* Dang Nhap */
+  .dang-nhap__banner {
+    display: none;
+  }
+  .background_temporary {
+    position: relative;
+    background-color: #f7462e;
+    width: 100%;
+    height: 550px;
+  }
+  .dang-nhap__form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* Dang Ky */
+  .dang-ky__banner {
+    display: none;
+  }
+  .background_temporary {
+    position: relative;
+    background-color: #f7462e;
+    width: 100%;
+    height: 550px;
+  }
+  .dang-ky__form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
