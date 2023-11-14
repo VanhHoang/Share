@@ -4,8 +4,9 @@
 * git config --global user.name "User Name"
 * git config --global user.email "username@gmail.com"
 
-# Copy Git
+# Clone Git
 * git clone https://github.com/VanhHoang/Share.git
+* git clone --single-branch --branch Development https://github.com/username/project.git
 
 # Create 
 * git init
