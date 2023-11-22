@@ -6,7 +6,7 @@
 
 # Clone Git
 * git clone https://github.com/VanhHoang/Share.git
-* git clone --single-branch --branch Development https://github.com/username/project.git
+* git clone --single-branch --branch manager_user_p2 https://github.com/Dungprj/shoppe_nhom_06.git
 
 # Create 
 * git init
