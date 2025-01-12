@@ -30,3 +30,17 @@
 
 # Pull
 * git pull origin master
+
+## ENV PYTHON 
+
+# Download package
+* pip install virtualenv
+
+# Select env
+* python -m virtualenv -p 'C:\Users\username\AppData\Local\Programs\Python\Python311\python.exe' env
+
+# Change 
+* cd env\Scripts
+
+# Activate
+* activate.bat
