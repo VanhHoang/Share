@@ -36,11 +36,17 @@
 # Download package
 * pip install virtualenv
 
+# Create env
+* Windows: py -m venv myworld
+* Unix/MacOS: python -m venv myworld
+or
 # Select env
-* python -m virtualenv -p 'C:\Users\username\AppData\Local\Programs\Python\Python311\python.exe' env
+* Windows: py ...
+* Unix/MacOS: python -m virtualenv -p 'C:\Users\username\AppData\Local\Programs\Python\Python311\python.exe' env
 
 # Change 
 * cd env\Scripts
 
 # Activate
-* activate.bat
+* Windows: myworld\Scripts\activate.bat
+* Unix/MacOS: source myworld/bin/activate
