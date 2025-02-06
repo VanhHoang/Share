@@ -50,3 +50,7 @@ or
 # Activate
 * Windows: myworld\Scripts\activate.bat
 * Unix/MacOS: source myworld/bin/activate
+
+# NOTE: With PowerShell, if you can't use "activate"
+*  First Solution: Set-ExecutionPolicy Unrestricted -Scope Process
+*  Second Solution: Set-ExecutionPolicy Unrestricted -Force
