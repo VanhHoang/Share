@@ -44,9 +44,11 @@ or
 * Windows: py ...
 * Unix/MacOS: python -m virtualenv -p 'C:\Users\username\AppData\Local\Programs\Python\Python311\python.exe' env
 
-# Change 
-* cd env\Scripts
+# CMD 
+* cd 
+* dir/ls
 
+  
 # Activate
 * Windows: myworld\Scripts\activate.bat
 * Unix/MacOS: source myworld/bin/activate
@@ -54,3 +56,5 @@ or
 # NOTE: With PowerShell, if you can't use "activate"
 *  First Solution: Set-ExecutionPolicy Unrestricted -Scope Process
 *  Second Solution: Set-ExecutionPolicy Unrestricted -Force
+
+
